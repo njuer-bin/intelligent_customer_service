@@ -1,0 +1,18 @@
+name: sme_guard
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pydantic>=2.7
+    - pydantic-settings>=2.3
+    - chromadb>=0.5
+    - ollama>=0.3
+    - gradio>=4.44
+    - pdfplumber>=0.11
+    - sentence-transformers>=3.0
+    - pytest>=8.0
+    - pytest-asyncio>=0.23
+    - python-dotenv>=1.0

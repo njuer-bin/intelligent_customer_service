@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sme_guard"
+version = "0.1.0"
+description = "小微商户智能客服应答机器人"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "chromadb>=0.5",
+    "ollama>=0.3",
+    "gradio>=4.44",
+    "pdfplumber>=0.11",
+    "sentence-transformers>=3.0",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "python-dotenv>=1.0",
+    "flask>=3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sme_guard*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

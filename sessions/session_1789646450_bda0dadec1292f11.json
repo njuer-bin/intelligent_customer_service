@@ -1,0 +1,14 @@
+{
+  "session_id": "session_1789646450_bda0dadec1292f11",
+  "user_id": "user123",
+  "created_at": 1789646450.37954,
+  "last_accessed": 1789646450.3817782,
+  "context": {
+    "preferences": {
+      "theme": "dark"
+    },
+    "conversation_history": [],
+    "custom_settings": {}
+  },
+  "expires_at": 1789732850.3817787
+}
