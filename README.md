@@ -5,7 +5,7 @@
 
 ---
 ## before
-*启动方式：
+* 启动方式：
 1.clone到本地
 2.运行gradio_app.py,然后在浏览器打开对应http：//localhost端口
 3.上传资料库，用MarkDown文件格式，可以让豆包生成一份模拟体验
